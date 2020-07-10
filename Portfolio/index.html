@@ -30,10 +30,10 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
 
       <style>
-          #upprev{
+          /*#upprev{
               width:100%;
               height:100%;
-          }
+          }*/
           .centerbutton{
               display:flex; 
               align-items:center; 
@@ -54,7 +54,7 @@
               padding-bottom:75px;
           }
           #updesc{
-              padding-right:50px;
+              padding-right:100px;
           }
           #PREV{
               visibility:hidden;
@@ -186,17 +186,17 @@
                   <div class="col-lg-12">
                       <h2 class="heading" id="previewheading">Upcoming Projects</h2>
                       <div class="row">
-                          <div class="col-md-1 centerbutton">
+                          <div class="col-md-2 centerbutton">
                               <i id="PREV" class="btn-project fas fa-chevron-circle-left fa-3x"></i>
                           </div>
-                          <div class="col-md-7 centerbutton">
+                          <div class="col-md-5 centerbutton">
                               <img id="upprev" src="/img/mockupsm.gif" alt="Game Preview">
                               <p></p>
                           </div>
                           <div class="col-md-3">
-                              <p id="updesc">My first commercial game release currently in closed alpha, aimed to release via Unreal Store spring 2021. Pneumatiheist is a traditional roguelike with modern ideas. Lose yourself in an immersive 2d modern world. 100+ unique characters to meet as you journey to steal the air itself. Story driven classic rogue-lite with metroidvania elements in a unique never before seen take on several genres. Written in Unity using C#.</p>
+                              <p id="updesc">My first commercial game release currently in closed alpha, aimed to release via Unreal Store spring 2021. Pneumatiheist is a traditional roguelike with modern ideas. Lose yourself in an immersive 2d futuristic world. 100+ unique characters to meet as you journey to steal the air itself. Story driven classic rogue-lite with metroidvania elements in a unique never before seen take on several genres. Written in Unity using C#.</p>
                           </div>
-                          <div class="col-md-1 centerbutton">
+                          <div class="col-md-2 centerbutton">
                               <i id="NEXT" class="btn-project fas fa-chevron-circle-right fa-3x"></i>
                           </div>
                       </div>
@@ -287,9 +287,9 @@
                           break;
                       case 2:
                           $("#upprev").attr({
-                              src: "/img/mockup2.gif"
+                              src: "/img/mockupsm2.gif"
                           });
-                          $("#updesc").html("Sample text 2");
+                          $("#updesc").html("Enjoy the depth of combat strategy you would find in X-XOM games along with the dialogue options of a Fallout title. All of your choices matter and you carry your reputation with you wherever you go. You can see NPC's emotions and facial expression in response to your actions and line choices when in towns. Lastly you get navigate in the comfort of your own ship built pixel by pixel. ");
                           break;
                   }
               });

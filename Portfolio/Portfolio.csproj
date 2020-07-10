@@ -121,7 +121,6 @@
     <Content Include="img\atryphthumb.png" />
     <Content Include="img\chadangel.png" />
     <Content Include="img\chadthumb.png" />
-    <Content Include="img\ein-steig.jpg" />
     <Content Include="img\favicon.ico" />
     <Content Include="img\favicon.png" />
     <Content Include="img\header.png" />
@@ -132,12 +131,7 @@
     <Content Include="img\mathracingthumb.png" />
     <Content Include="img\mockup.gif" />
     <Content Include="img\mockup2.gif" />
-    <Content Include="img\portfolio-4.jpg" />
-    <Content Include="img\portfolio-5.jpg" />
-    <Content Include="img\portfolio-6.jpg" />
-    <Content Include="img\portfolio-7.jpg" />
-    <Content Include="img\portfolio-8.jpg" />
-    <Content Include="img\portfolio-9.jpg" />
+    <Content Include="img\mockupsm.gif" />
     <Content Include="img\self2.png" />
     <Content Include="index.html" />
     <Content Include="js\front.js" />
