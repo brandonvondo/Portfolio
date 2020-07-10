@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>BV Landing Page / Portfolio</title>
@@ -19,49 +19,52 @@
     <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
     <!-- Custom stylesheet - for your changes-->
     <link rel="stylesheet" href="css/custom.css">
-    <!-- Favicon--> 
+    <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
     <!-- Leaflet CSS - For the map-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css">
     <!-- Prism - for showing code-->
     <link href="css/prism.css" rel="stylesheet" />
-    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+    <!-- Tweaks for older IEs-->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+    <style>
+        
+.centerbutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-      <style>
-          /*#upprev{
-              width:100%;
-              height:100%;
-          }*/
-          .centerbutton{
-              display:flex; 
-              align-items:center; 
-              justify-content:center;
-          }
-          .jvscrpttext{
-              margin-right:10px;
-          }
-          .btn-project{
-              font-size:large;
-              font-family:monospace;
-          }
-          #previewheading{
-              margin-left:20%;
-          }
-          #upcproject{
-              padding-top:75px;
-              padding-bottom:75px;
-          }
-          #updesc{
-              padding-right:100px;
-          }
-          #PREV{
-              visibility:hidden;
-          }
-          
-      </style>
-  </head>
+.jvscrpttext {
+    margin-right: 10px;
+}
+
+.btn-project {
+    font-size: large;
+    font-family: monospace;
+}
+
+#previewheading {
+    margin-left: 20%;
+}
+
+#upcproject {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+#updesc {
+    /*padding-right: 100px;*/
+}
+
+#PREV {
+    visibility: hidden;
+}
+
+    </style>
+</head>
   <body>
       <section id="intro" style="background-image: url('/img/header.png');" class="intro">
           <div class="overlay"></div>
@@ -70,8 +73,8 @@
                   <div class="row">
                       <div class="col-lg-8 col-md-12 mx-auto">
                           <p class="italic">Hello, nice to meet you!</p>
-                          <h3>game dev & .net fullstack dev</h3>
-                          <p class="italic">I'm Brandon Von Dolteren. Casual game developer using Unity (C#) & GMS2 (GML) and .net fullstack developer.</p>
+                          <h3>.net fullstack dev & game dev</h3>
+                          <p class="italic">I'm Brandon Von Dolteren. .NET fullstack developer and casual game developer using Unity (C#) & GMS2 (GML)</p>
                       </div>
                   </div>
               </div>
@@ -215,7 +218,7 @@
                           <div class="col-lg-6">
                               <p></p>
                               <p>Click the icons below to find my social media.</p>
-                              <p class="social"><a href="#" title="" class="facebook"><i class="fa fa-facebook"></i></a><a href="#" title="" class="twitter"><i class="fa fa-twitter"></i></a><a href="#" title="" class="gplus"><i class="fa fa-google-plus"></i></a><a href="#" title="" class="instagram"><i class="fa fa-instagram"></i></a><a href="#" title="" class="email"><i class="fa fa-envelope"></i></a></p>
+                              <p class="social"><a href="https://twitter.com/xBvdev" title="My Dev Twitter" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a><!--<a href="#" title="Coming soon" class="gplus"><i class="fa fa-google-plus"></i></a>--><!--<a href="#" title="" class="instagram"><i class="fa fa-instagram"></i></a>--><a href="mailto:xabvstudios@gmail.com?subject=Contact%20Brandon" title="Email my business email" class="email"><i class="fa fa-envelope"></i></a></p>
                           </div>
                       </div>
                   </div>
@@ -227,7 +230,7 @@
           <div class="container">
               <div class="row copyright">
                   <div class="col-md-6">
-                      <p class="mb-md-0 text-center text-md-left">&copy;2020 Brandon Von Dolteren.                    <span>Photo by <a href="https://unsplash.com/@clemhlrdt?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Clément H</a> on <a href="https://unsplash.com/s/photos/portfolio-header?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p>
+                      <p class="mb-md-0 text-center text-md-left">&copy;2020 Brandon Von Dolteren. <span>Header photo by <a href="https://unsplash.com/@clemhlrdt?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Clément H</a> on <a href="https://unsplash.com/s/photos/portfolio-header?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p>
                   </div>
                   <div class="col-md-6">
                       <p class="credit mb-md-0 text-center text-md-right">Template by <a href="https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form">Bootstrapious</a></p>
@@ -289,7 +292,7 @@
                           $("#upprev").attr({
                               src: "/img/mockupsm2.gif"
                           });
-                          $("#updesc").html("Enjoy the depth of combat strategy you would find in X-XOM games along with the dialogue options of a Fallout title. All of your choices matter and you carry your reputation with you wherever you go. You can see NPC's emotions and facial expression in response to your actions and line choices when in towns. Lastly you get navigate in the comfort of your own ship built pixel by pixel. ");
+                          $("#updesc").html("Enjoy the depth of combat strategy you would find in X-XOM games along with the dialogue options of a Fallout title. All of your choices matter and you carry your reputation with you wherever you go. You can see NPC's emotions and facial expression in response to your actions and line choices when in towns. You get navigate the universe in the comfort of your own ship built pixel by pixel by the player. ");
                           break;
                   }
               });
