@@ -36,6 +36,10 @@
     align-items: center;
     justify-content: center;
 }
+/*.centerbutton:hover { 
+    width:50px;
+    height:50px;
+}*/
 
 .jvscrpttext {
     margin-right: 10px;
@@ -44,6 +48,12 @@
 .btn-project {
     font-size: large;
     font-family: monospace;
+    opacity:.5;
+
+}
+
+.btn-project:hover {
+    opacity:1;
 }
 
 #previewheading {
@@ -190,7 +200,7 @@
                       <h2 class="heading" id="previewheading">Upcoming Projects</h2>
                       <div class="row">
                           <div class="col-md-2 centerbutton">
-                              <i id="PREV" class="btn-project fas fa-chevron-circle-left fa-3x"></i>
+                              <i id="PREV" class="btn-project fas fa-chevron-circle-left fa-2x"></i>
                           </div>
                           <div class="col-md-5 centerbutton">
                               <img id="upprev" src="/img/mockupsm.gif" alt="Game Preview">
@@ -200,7 +210,7 @@
                               <p id="updesc">My first commercial game release currently in closed alpha, aimed to release via Unreal Store spring 2021. Pneumatiheist is a traditional roguelike with modern ideas. Lose yourself in an immersive 2d futuristic world. 100+ unique characters to meet as you journey to steal the air itself. Story driven classic rogue-lite with metroidvania elements in a unique never before seen take on several genres. Written in Unity using C#.</p>
                           </div>
                           <div class="col-md-2 centerbutton">
-                              <i id="NEXT" class="btn-project fas fa-chevron-circle-right fa-3x"></i>
+                              <i id="NEXT" class="btn-project fas fa-chevron-circle-right fa-2x"></i>
                           </div>
                       </div>
                   </div>
@@ -296,6 +306,15 @@
                           break;
                   }
               });
+
+          $(".btn-project").mouseenter(function () {
+              $(this).removeClass("fa-2x")
+              $(this).addClass("fa-3x")
+          });
+          $(".btn-project").mouseleave(function () {
+              $(this).removeClass("fa-3x")
+              $(this).addClass("fa-2x")
+          });
       </script>
 
   </body>

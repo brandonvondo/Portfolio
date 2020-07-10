@@ -125,10 +125,9 @@
     <Content Include="img\favicon.png" />
     <Content Include="img\header.png" />
     <Content Include="img\iconbv.png" />
-    <Content Include="img\japan-mountains.jpg" />
     <Content Include="img\logo.png" />
     <Content Include="img\mathracing.png" />
-    <Content Include="img\mathracingthumb.png" />
+    <Content Include="img\mathracingthumbv2.png" />
     <Content Include="img\mockupsm.gif" />
     <Content Include="img\mockupsm2.gif" />
     <Content Include="img\self2.png" />
