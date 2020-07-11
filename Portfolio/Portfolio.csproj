@@ -128,6 +128,7 @@
     <Content Include="img\logo.png" />
     <Content Include="img\mathracing.png" />
     <Content Include="img\mathracingthumbv2.png" />
+    <Content Include="img\mockupgrey.png" />
     <Content Include="img\mockupsm.gif" />
     <Content Include="img\mockupsm2.gif" />
     <Content Include="img\self2.png" />

@@ -67,6 +67,7 @@
 
 #updesc {
     /*padding-right: 100px;*/
+    font-family: 'Retro Gamer'
 }
 
 #PREV {
@@ -203,7 +204,7 @@
                               <i id="PREV" class="btn-project fas fa-chevron-circle-left fa-2x"></i>
                           </div>
                           <div class="col-md-5 centerbutton">
-                              <img id="upprev" src="/img/mockupsm.gif" alt="Game Preview">
+                              <img id="upprev" src="/img/mockupgrey.png" alt="Game Preview">
                               <p></p>
                           </div>
                           <div class="col-md-3">
@@ -294,7 +295,7 @@
                   switch (CURRENT_CASE) {
                       case 1:
                           $("#upprev").attr({
-                              src: "/img/mockupsm.gif"
+                              src: "/img/mockupgrey.png"
                           });
                           $("#updesc").html("My first commercial game release currently in closed beta, aimed to release via Unreal Store spring 2021. Pneumatiheist is a traditional roguelike with modern ideas. Lose yourself in an immersive 2d modern world. 100+ unique characters to meet as you journey to steal the air itself. Story driven classic rogue-lite with metroidvania elements in a unique never before seen take on several genres. Written in Unity using C#.");
                           break;
@@ -302,7 +303,7 @@
                           $("#upprev").attr({
                               src: "/img/mockupsm2.gif"
                           });
-                          $("#updesc").html("Enjoy the depth of combat strategy you would find in X-XOM games along with the dialogue options of a Fallout title. All of your choices matter and you carry your reputation with you wherever you go. You can see NPC's emotions and facial expression in response to your actions and line choices when in towns. You get navigate the universe in the comfort of your own ship built pixel by pixel by the player. ");
+                          $("#updesc").html("Enjoy the depth of combat strategy you would find in X-COM games along with the dialogue options of a Fallout title. All of your choices matter and you carry your reputation with you wherever you go. You can see NPC's emotions and facial expression in response to your actions and line choices when in towns. You get navigate the universe in the comfort of your own ship built pixel by pixel by the player. ");
                           break;
                   }
               });
@@ -314,6 +315,22 @@
           $(".btn-project").mouseleave(function () {
               $(this).removeClass("fa-3x")
               $(this).addClass("fa-2x")
+          });
+
+          $("#upprev").mouseenter(function () {
+          if (CURRENT_CASE == 1) {
+              $("#upprev").attr({
+                  src: "/img/mockupsm.gif"
+              });
+              };
+          });
+
+          $("#upprev").mouseleave(function () {
+          if (CURRENT_CASE == 1) {
+              $("#upprev").attr({
+                  src: "/img/mockupgrey.png"
+              });
+              };
           });
       </script>
 
