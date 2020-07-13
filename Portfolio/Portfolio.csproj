@@ -113,6 +113,7 @@
     <Content Include="css\custom.css" />
     <Content Include="css\prism.css" />
     <Content Include="css\style.default.css" />
+    <Content Include="img\fizzbuzzthumb.png" />
     <Content Include="img\gml.ico" />
     <Content Include="img\csharp.ico" />
     <Content Include="header.png" />
@@ -132,6 +133,9 @@
     <Content Include="img\mockupsm.gif" />
     <Content Include="img\mockupsm2.gif" />
     <Content Include="img\self2.png" />
+    <Content Include="img\soafthumb.png" />
+    <Content Include="img\sshthumb.png" />
+    <Content Include="img\tacothumb.png" />
     <Content Include="index.html" />
     <Content Include="js\front.js" />
     <Content Include="js\jquery-3.5.1.min.js" />
