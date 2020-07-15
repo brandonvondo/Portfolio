@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Cardo:400,400italic,700">
     <!-- Lightbox-->
     <link rel="stylesheet" href="vendor/lightbox2/css/lightbox.min.css">
+    <!--Magnific Popup-->
+    <link href="css/magnificpopup.css" rel="stylesheet" />
     <!-- theme stylesheet-->
     <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
     <!-- Custom stylesheet - for your changes-->
@@ -31,15 +33,11 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
     <style>
         
-.centerbutton {
+/*.centerbutton {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-/*.centerbutton:hover { 
-    width:50px;
-    height:50px;
-}*/
 
 .jvscrpttext {
     margin-right: 10px;
@@ -75,7 +73,7 @@
 }
 #refer {
     font-family:'alphabetized cassette tapes';
-    font-size:30px;
+    font-size:20px;
 }
 #link {
     color:slategrey
@@ -84,7 +82,7 @@
 #thumbprev{
     outline-color:black;
     outline-width:2px;
-}
+}*/
 
     </style>
 </head>
@@ -186,39 +184,40 @@
                       <div class="row">
                           <div class="col-md-12 col-lg-8">
                               <h2 class="heading">Finished Projects</h2>
-                              <p>Small personal projects for jams or for college. </p>
+                              <p>Coding Challenges for CoderFoundry.</p>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-3">
+                                  <a href="https://xabvtacocat.netlify.app/" title="Taco Cat Website" target="_blank"><img src="/img/tacothumb.png" alt="image" class="img-fluid"></a> <br />
+                                  <p id="refer" class="text-center"> Picture by <a href="http://limvalencia.blogspot.com/2014/02/tacocat.html" target="_blank" id="link"><u>Wilfrido Limvalencia</u></a></p>
+                              </div>
+                              <div class="col-md-3">
+                                  <a href="https://xabvsoaf.netlify.app/" title="Sum of All Fears Website" target="_blank"><img src="/img/soafthumb.png" alt="image" class="img-fluid"></a>
+                              </div>
+                              <div class="col-md-3">
+                                  <a href="#" title="Fizz Buzz Website" target="_blank"><img src="/img/fizzbuzzthumb.png" alt="image" class="img-fluid"></a>
+                              </div>
+                              <div class="col-md-3">
+                                  <a href="#" title="Sunset Hills Website" target="_blank"><img src="/img/sshthumb.png" alt="image" class="img-fluid"></a>
+                              </div>
+                          </div>
+                          <div class="row">
+                                  <p>Small personal projects for jams or for college. </p>
+                              </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-4">
+                                  <div class="box"><a href="/img/chadangel.png" data-lightbox="image-1" data-title="A small bullet hell rogue-like created for a 24H game jam using GML." class="has-border"><img src="/img/chadthumb.png" alt="image" class="thumbprev rounded img-fluid"></a></div>
+                              </div>
+                              <div class="col-md-4">
+                                  <div class="box"><a href="/img/atryph.png" data-lightbox="image-1" data-title="A serious point and click adventure game exploring the mind of an abused child. Delves into serious and upsetting topics. Final for engine scripting college course." class="has-border"><img src="/img/atryphthumb.png" alt="image" class="thumbprev rounded img-fluid"></a></div>
+                              </div>
+                              <div class="col-md-4">
+                                  <div class="box"><a href="/img/mathracing.png" data-lightbox="image-1" data-title="A educational touch based racing app aimed towards children. Made during a 48H game jam with the theme of educational games. Uses the idea of sprite stacking to emulate 3d while being entirely 2d." class="has-border"><img src="/img/mathracingthumbbw.png" alt="image" class="thumbprev rounded img-fluid"></a></div>
+                              <!--<button id="mritch">Open</button>-->
+                              </div>
                           </div>
                       </div>
-                      <div class="row">
-                          <div class="col-md-4">
-                              <div class="box"><a href="/img/chadangel.png" data-lightbox="image-1" data-title="A small bullet hell rogue-like created for a 24H game jam using GML." class="has-border"><img src="/img/chadthumb.png" alt="image" class="thumbprev rounded img-fluid"></a></div>
-                          </div>
-                          <div class="col-md-4">
-                              <div class="box"><a href="/img/atryph.png" data-lightbox="image-1" data-title="A serious point and click adventure game exploring the mind of an abused child. Delves into serious and upsetting topics. Final for engine scripting college course." class="has-border"><img src="/img/atryphthumb.png" alt="image" class="thumbprev rounded img-fluid"></a></div>
-                          </div>
-                          <div class="col-md-4">
-                              <div class="box"><a href="/img/mathracing.png" data-lightbox="image-1" data-title="A educational touch based racing app aimed towards children. Made during a 48H game jam with the theme of educational games. Uses the idea of sprite stacking to emulate 3d while being entirely 2d." class="has-border"><img src="/img/mathracingthumbv2.png" alt="image" class="thumbprev rounded img-fluid"></a></div>
-                          </div>
-                      </div>
-                      <div class="row">
-                          <p>Coding Challenges for CoderFoundry.</p>
-                      </div>
-                      <div class="row">
-                          <div class="col-md-3">
-                              <a href="https://xabvtacocat.netlify.app/" title="Taco Cat Website" target="_blank"><img src="/img/tacothumb.png" alt="image" class="img-fluid"></a> <br />
-                              <p id="refer" class="text-center"> Picture by <a href="http://limvalencia.blogspot.com/2014/02/tacocat.html" target="_blank" id="link"><u>Wilfrido Limvalencia</u></a></p>
-                          </div>
-                          <div class="col-md-3">
-                              <a href="https://xabvsoaf.netlify.app/" title="Sum of All Fears Website" target="_blank"><img src="/img/soafthumb.png" alt="image" class="img-fluid"></a>
-                          </div>
-                          <div class="col-md-3">
-                              <a href="#" title="Fizz Buzz Website" target="_blank"><img src="/img/fizzbuzzthumb.png" alt="image" class="img-fluid"></a>
-                          </div>
-                          <div class="col-md-3">
-                              <a href="#" title="Sunset Hills Website" target="_blank"><img src="/img/sshthumb.png" alt="image" class="img-fluid"></a>
-                          </div>
-                      </div>
-                  </div>
               </div>
           </div>
       </section>
@@ -234,7 +233,7 @@
                               <i id="PREV" class="btn-project fas fa-chevron-circle-left fa-2x"></i>
                           </div>
                           <div class="col-md-5 centerbutton">
-                              <img id="upprev" src="/img/mockupgrey.png" alt="Game Preview">
+                              <img id="upprev" src="/img/mockupgreym.png" alt="Game Preview">
                               <p></p>
                           </div>
                           <div class="col-md-3">
@@ -290,6 +289,7 @@
       <script src="js/front.js"></script>
       <script src="https://kit.fontawesome.com/b9459adbc7.js" crossorigin="anonymous"></script>
       <script src="js/prism.js"></script>
+      <script src="js/magnificpopup.js"></script>
 
       <script>
       //    $(".btn-project").click(function () {
@@ -299,6 +299,19 @@
       //        else
       //            return
       //});
+          $("#mritch").on("click", function () {
+              $.magnificPopup.open({
+                  items: {
+                      src: 'https://itch.io/embed-upload/2491728?color=333333'
+                  },
+                  type: 'iframe',
+                  iframe: {
+                      markup:
+                      '<iframe width="1280" height="740" frameborder="0" ></iframe>'
+                  }
+              });
+          });
+
           var CURRENT_CASE = 1;
 
               $(".btn-project").click(function () {
@@ -325,7 +338,7 @@
                   switch (CURRENT_CASE) {
                       case 1:
                           $("#upprev").attr({
-                              src: "/img/mockupgrey.png"
+                              src: "/img/mockupgreym.png"
                           });
                           $("#updesc").html("My first commercial game release currently in closed beta, aimed to release via Unreal Store spring 2021. Pneumatiheist is a traditional rogue-like with modern ideas. Lose yourself in an immersive 2d modern world. 100+ unique characters to meet as you journey to steal the air itself. Story driven classic rogue-lite with metroidvania elements in a unique never before seen take on several genres. Written in Unity using C#.");
                           break;
@@ -358,7 +371,7 @@
           $("#upprev").mouseleave(function () {
           if (CURRENT_CASE == 1) {
               $("#upprev").attr({
-                  src: "/img/mockupgrey.png"
+                  src: "/img/mockupgreym.png"
               });
               };
           });

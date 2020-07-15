@@ -1,0 +1,51 @@
+.centerbutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jvscrpttext {
+    margin-right: 10px;
+}
+
+.btn-project {
+    font-size: large;
+    font-family: monospace;
+    opacity: .5;
+}
+
+    .btn-project:hover {
+        opacity: 1;
+    }
+
+#previewheading {
+    margin-left: 20%;
+}
+
+#upcproject {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+#updesc {
+    /*padding-right: 100px;*/
+    font-family: 'Retro Gamer'
+}
+
+#PREV {
+    visibility: hidden;
+}
+
+#refer {
+    font-family: 'alphabetized cassette tapes';
+    font-size: 20px;
+}
+
+#link {
+    color: slategrey
+}
+
+#thumbprev {
+    outline-color: black;
+    outline-width: 2px;
+}
