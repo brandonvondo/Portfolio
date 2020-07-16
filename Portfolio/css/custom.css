@@ -68,3 +68,14 @@
     margin-left:30%;
     margin-top:10%;
 }
+
+.dsat {
+    filter: grayscale(100%);
+}
+.dsat2 {
+    filter: none;
+}
+
+p.bold{
+    font-weight:bold;
+}
