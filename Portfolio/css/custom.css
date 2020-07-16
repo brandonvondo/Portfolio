@@ -29,7 +29,13 @@
 
 #updesc {
     /*padding-right: 100px;*/
-    font-family: 'Retro Gamer'
+    font-family: 'Retro Gamer';
+}
+
+.codedesc {
+    /*padding-left:5%;*/
+    font-size:30px;
+    font-family: monospace;
 }
 
 #PREV {
@@ -45,7 +51,21 @@
     color: slategrey
 }
 
-#thumbprev {
-    outline-color: black;
-    outline-width: 2px;
+.thumbprev {
+    width:100%;
+    height:auto;
+}
+
+.hrow{
+    padding-top:1%;
+    padding-bottom:1%;
+}
+
+.prismbox{
+    display:none;
+}
+
+#prismtog{
+    margin-left:30%;
+    margin-top:10%;
 }

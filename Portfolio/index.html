@@ -31,60 +31,7 @@
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-    <style>
-        
-/*.centerbutton {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-.jvscrpttext {
-    margin-right: 10px;
-}
-
-.btn-project {
-    font-size: large;
-    font-family: monospace;
-    opacity:.5;
-
-}
-
-.btn-project:hover {
-    opacity:1;
-}
-
-#previewheading {
-    margin-left: 20%;
-}
-
-#upcproject {
-    padding-top: 75px;
-    padding-bottom: 75px;
-}
-
-#updesc {
-    /*padding-right: 100px;*/
-    font-family: 'Retro Gamer'
-}
-
-#PREV {
-    visibility: hidden;
-}
-#refer {
-    font-family:'alphabetized cassette tapes';
-    font-size:20px;
-}
-#link {
-    color:slategrey
-    
-}
-#thumbprev{
-    outline-color:black;
-    outline-width:2px;
-}*/
-
-    </style>
 </head>
   <body>
       <section id="intro" style="background-image: url('/img/header.png');" class="intro">
@@ -142,7 +89,7 @@
           <div class="container">
               <div class="row services">
                   <div class="col-lg-12">
-                      <h2 class="heading">Languages</h2>
+                      <h2 class="heading">Languages/ Libraries</h2>
                       <div class="row">
                           <div class="col-md-4">
                               <div class="box">
@@ -188,36 +135,82 @@
                           </div>
                           <div class="row">
                               <div class="col-md-3">
-                                  <a href="https://xabvtacocat.netlify.app/" title="Taco Cat Website" target="_blank"><img src="/img/tacothumb.png" alt="image" class="img-fluid"></a> <br />
+                                  <a href="https://xabvtacocat.netlify.app/" title="Taco Cat Website" target="_blank"><img src="/img/tacothumb.png" alt="image" class="img-fluid img-thumbnail"></a> <br />
                                   <p id="refer" class="text-center"> Picture by <a href="http://limvalencia.blogspot.com/2014/02/tacocat.html" target="_blank" id="link"><u>Wilfrido Limvalencia</u></a></p>
                               </div>
                               <div class="col-md-3">
-                                  <a href="https://xabvsoaf.netlify.app/" title="Sum of All Fears Website" target="_blank"><img src="/img/soafthumb.png" alt="image" class="img-fluid"></a>
+                                  <a href="https://xabvsoaf.netlify.app/" title="Sum of All Fears Website" target="_blank"><img src="/img/soafthumb.png" alt="image" class="img-fluid img-thumbnail"></a>
                               </div>
                               <div class="col-md-3">
-                                  <a href="#" title="Fizz Buzz Website" target="_blank"><img src="/img/fizzbuzzthumb.png" alt="image" class="img-fluid"></a>
+                                  <a href="#" title="Fizz Buzz Website" target="_blank"><img src="/img/fizzbuzzthumb.png" alt="image" class="img-fluid img-thumbnail"></a>
                               </div>
                               <div class="col-md-3">
-                                  <a href="#" title="Sunset Hills Website" target="_blank"><img src="/img/sshthumb.png" alt="image" class="img-fluid"></a>
+                                  <a href="#" title="Sunset Hills Website" target="_blank"><img src="/img/sshthumb.png" alt="image" class="img-fluid img-thumbnail"></a>
                               </div>
                           </div>
                           <div class="row">
-                                  <p>Small personal projects for jams or for college. </p>
-                              </div>
-                          </div>
-                          <div class="row">
-                              <div class="col-md-4">
-                                  <div class="box"><a href="/img/chadangel.png" data-lightbox="image-1" data-title="A small bullet hell rogue-like created for a 24H game jam using GML." class="has-border"><img src="/img/chadthumb.png" alt="image" class="thumbprev rounded img-fluid"></a></div>
-                              </div>
-                              <div class="col-md-4">
-                                  <div class="box"><a href="/img/atryph.png" data-lightbox="image-1" data-title="A serious point and click adventure game exploring the mind of an abused child. Delves into serious and upsetting topics. Final for engine scripting college course." class="has-border"><img src="/img/atryphthumb.png" alt="image" class="thumbprev rounded img-fluid"></a></div>
-                              </div>
-                              <div class="col-md-4">
-                                  <div class="box"><a href="/img/mathracing.png" data-lightbox="image-1" data-title="A educational touch based racing app aimed towards children. Made during a 48H game jam with the theme of educational games. Uses the idea of sprite stacking to emulate 3d while being entirely 2d." class="has-border"><img src="/img/mathracingthumbbw.png" alt="image" class="thumbprev rounded img-fluid"></a></div>
-                              <!--<button id="mritch">Open</button>-->
-                              </div>
+                              <p>Small personal projects for jams or for college. </p>
                           </div>
                       </div>
+                      <div class="row">
+                          <div class="col-md-4">
+                              <img src="/img/chadthumb.png" id="" class="thumbprev img-thumbnail img-fluid" title="Coming soon" />
+                          </div>
+                          <div class="col-md-4">
+                              <img src="/img/atryphthumb.png" id="" class="thumbprev img-thumbnail img-fluid" title="Coming soon" />
+                          </div>
+                          <div class="col-md-4">
+                              <!--<div class="box"><a href="/img/mathracing.png" data-lightbox="image-1" data-title="A educational touch based racing app aimed towards children. Made during a 48H game jam with the theme of educational games. Uses the idea of sprite stacking to emulate 3d while being entirely 2d." class="has-border"><img src="/img/mathracingthumbbw.png" alt="image" class="thumbprev rounded img-fluid"></a></div>-->
+                              <p><img src="/img/mathracingthumbbw.png" id="mritch" class="thumbprev img-thumbnail img-fluid" /><br /><button id="prismtog" class="btn btn-outline-dark">Toggle Code</button></p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <!--<ul class="nav nav-tabs" id="myTab" role="tablist">
+                      <li class="nav-item">
+                          <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+                      </li>
+                  </ul>
+                  <div class="tab-content" id="myTabContent">
+                      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
+                      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+                      <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                  </div>-->
+                  <div class="col-md-6 smallcol">
+
+                      <p>
+                          <pre class="prismbox"><code class="language-gml">if global.qdifficulty = 1 and mathtime = true{
+    var plus = " + ";
+    var minus = " - ";
+    var mathsign;
+    mathsign = choose(plus,minus);
+    var x1, x2;
+    x1 = irandom_range(1,9);
+    x2 = irandom_range(1,9);
+    if mathsign = plus{
+    o_answer1R.answer = x1+x2
+    o_answer2W.answer = x1+x2-irandom_range(1,5)
+    }
+    if mathsign = minus{
+    o_answer1R.answer = x1-x2
+    o_answer2W.answer = x1+irandom_range(1,5)-x2
+    }
+    equationprint = string(x1) + mathsign + string(x2);
+    mathtime = false
+    o_rccontroller.ismath = true;
+    }</code></pre>
+                      </p>
+                  </div>
+                  <div class="col-md-6">
+                      <p class="text-center codedesc prismbox">The controlling object of the math function. This is deciding the type of math along with performing very simple randomized math equations and sending the answers off to a "right" object and a "wrong" object. It also initiates a mathtime alarm timer on itself to repeat the loop.</p>
+                  </div>
               </div>
           </div>
       </section>
@@ -292,13 +285,20 @@
       <script src="js/magnificpopup.js"></script>
 
       <script>
-      //    $(".btn-project").click(function () {
-      //        if ($(this).attr("id") === "NEXT") {
-      //            alert("Handler for .click() called.");
-      //        }
-      //        else
-      //            return
-      //});
+          var codeshown = false;
+          //$(document).ready(function () {
+              $("#prismtog").on("click",function () {
+                  if (codeshown == false) {
+                      $(".prismbox").slideDown();
+                      codeshown = true;
+                  }
+                  else if (codeshown == true) {
+                      $(".prismbox").slideUp();
+                      codeshown = false;
+                  }
+              });
+          //});
+
           $("#mritch").on("click", function () {
               $.magnificPopup.open({
                   items: {
@@ -306,11 +306,13 @@
                   },
                   type: 'iframe',
                   iframe: {
-                      markup:
-                      '<iframe width="1280" height="740" frameborder="0" ></iframe>'
+                      markup: '<div class="mfp-iframe-scaler custom-iframemp">' +
+                          '<div class="mfp-close"></div>' +
+                          '<iframe class="mfp-iframe" frameborder="0" allowfullscreen>            </iframe>' +
+                          '</div>'
                   }
+                   });
               });
-          });
 
           var CURRENT_CASE = 1;
 
@@ -352,16 +354,26 @@
               });
 
           $(".btn-project").mouseenter(function () {
-              $(this).removeClass("fa-2x")
-              $(this).addClass("fa-3x")
+              $(this).removeClass("fa-2x");
+              $(this).addClass("fa-3x");
           });
           $(".btn-project").mouseleave(function () {
-              $(this).removeClass("fa-3x")
-              $(this).addClass("fa-2x")
+              $(this).removeClass("fa-3x");
+              $(this).addClass("fa-2x");
           });
 
+          $(".thumbprev").mouseenter(function () {
+              $(this).css("cursor", "pointer");
+          });
+          $(".thumbprev").mouseleave(function () {
+              $(this).css("cursor", "default");
+          });
+
+          var gifchange = 0;
+
           $("#upprev").mouseenter(function () {
-          if (CURRENT_CASE == 1) {
+              if (CURRENT_CASE == 1 && gifchange == 0) {
+              gifchange = 1;
               $("#upprev").attr({
                   src: "/img/mockupsm.gif"
               });
@@ -369,7 +381,8 @@
           });
 
           $("#upprev").mouseleave(function () {
-          if (CURRENT_CASE == 1) {
+              if (CURRENT_CASE == 1 && gifchange == 1) {
+              gifchange = 0;
               $("#upprev").attr({
                   src: "/img/mockupgreym.png"
               });
