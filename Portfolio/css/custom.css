@@ -28,12 +28,11 @@
 }
 
 #updesc {
-    /*padding-right: 100px;*/
     font-family: 'Retro Gamer';
 }
 
 .codedesc {
-    /*padding-left:5%;*/
+    padding-top:10%;
     font-size:30px;
     font-family: monospace;
 }
