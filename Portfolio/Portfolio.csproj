@@ -114,9 +114,14 @@
     <Content Include="css\magnificpopup.css" />
     <Content Include="css\prism.css" />
     <Content Include="css\style.default.css" />
+    <Content Include="favi\android-chrome-192x192.png" />
+    <Content Include="favi\android-chrome-512x512.png" />
+    <Content Include="favi\apple-touch-icon.png" />
+    <Content Include="favi\favicon-16x16.png" />
+    <Content Include="favi\favicon-32x32.png" />
+    <Content Include="favi\favicon.ico" />
     <Content Include="img\atryphthumb.png" />
     <Content Include="img\chadthumb.png" />
-    <Content Include="img\favicon.ico" />
     <Content Include="img\fizzbuzzthumb.png" />
     <Content Include="img\gml.ico" />
     <Content Include="img\csharp.ico" />
@@ -128,8 +133,7 @@
     <Content Include="img\iconbv.png" />
     <Content Include="img\logo.png" />
     <Content Include="img\mathracing.png" />
-    <Content Include="img\mathracingthumbbw.png" />
-    <Content Include="img\mathracingthumbc.png" />
+    <Content Include="img\mathracingthumb.png" />
     <Content Include="img\mockupgreym.png" />
     <Content Include="img\mockupsm.gif" />
     <Content Include="img\mockupsm2.gif" />
@@ -208,6 +212,7 @@
     <Content Include="bin\roslyn\vbc.exe.config" />
     <Content Include="bin\roslyn\vbc.rsp" />
     <Content Include="bin\roslyn\VBCSCompiler.exe.config" />
+    <Content Include="favi\site.webmanifest" />
     <None Include="packages.config" />
     <Content Include="vendor\font-awesome\fonts\fontawesome-webfont.eot" />
     <Content Include="vendor\font-awesome\fonts\fontawesome-webfont.ttf" />
