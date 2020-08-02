@@ -139,9 +139,12 @@
     <Content Include="img\mockupsm2.gif" />
     <Content Include="img\self2.png" />
     <Content Include="img\soafthumb.png" />
+    <Content Include="img\sql.ico" />
     <Content Include="img\sshthumb.png" />
     <Content Include="img\tacothumb.png" />
+    <Content Include="img\xam.ico" />
     <Content Include="index.html" />
+    <Content Include="js\custom.js" />
     <Content Include="js\front.js" />
     <Content Include="js\jquery-3.5.1.min.js" />
     <Content Include="js\magnificpopup.js" />

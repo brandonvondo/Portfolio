@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>BV Landing Page / Portfolio</title>
+    <title>Brandon Von Dolteren Portfolio</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
@@ -46,8 +46,12 @@
                         <p class="italic">Hello, nice to meet you!</p>
                         <h4>.net fullstack dev & indie game dev</h4>
                         <p class="italic">I'm Brandon Von Dolteren. .NET fullstack developer and casual game developer using Unity (C#) & GMS2 (GML)</p>
+                        <br />
+                        <a id="aboutlink" class="btn btn-dark scrolldown centerbutton">Learn more about me!</a>
                     </div>
                 </div>
+            </div>
+            <div>
             </div>
         </div>
     </section>
@@ -64,6 +68,7 @@
                         <li class="nav-item"><a href="#about" class="nav-link link-scroll">About </a></li>
                         <li class="nav-item"><a href="#languages" class="nav-link link-scroll">Languages</a></li>
                         <li class="nav-item"><a href="#project" class="nav-link link-scroll">Projects</a></li>
+                        <li class="nav-item"><a href="#minisites" class="nav-link link-scroll">Mini-Sites</a></li>
                         <li class="nav-item"><a href="#upcproject" class="nav-link link-scroll">Upcoming Project</a></li>
                         <li class="nav-item"><a href="#Socials" class="nav-link link-scroll">Socials</a></li>
                     </ul>
@@ -96,28 +101,40 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="box">
-                                <div class="icon"><i class="fab fa-bootstrap"></i></div>
+                                <div class="icon img-fluid"><i class="fab fa-js-square"></i></div>
+                                <h6 class="jvscrpttext">Javascript / Jquery</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="box">
+                                <div class="icon img-fluid"><i class="fab fa-bootstrap"></i></div>
                                 <h5>Bootstrap 4</h5>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="box">
-                                <div class="icon"><i class="fab fa-js-square"></i></div>
-                                <h5 class="jvscrpttext">Javascript / Jquery</h5>
+                                <div class="icon img-fluid"><img src="/img/xam.ico" /></div>
+                                <h6>Xamarin</h6>
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-4">
                             <div class="box">
-                                <div class="icon"><img src="/img/csharp.ico" /></div>
-                                <h2>C#</h2>
+                                <div class="icon img-fluid"><img src="/img/gml.ico" /></div>
+                                <h6>Game Maker Language</h6>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="box">
-                                <div class="icon"><img src="/img/gml.ico" /></div>
-                                <h5>Game Maker Language</h5>
+                                <div class="icon img-fluid"><img src="/img/csharp.ico" /></div>
+                                <h5>C Sharp</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="box">
+                                <div class="icon img-fluid"><img src="/img/sql.ico" /></div>
+                                <h6>SQL (Structured Query Language)</h6>
                             </div>
                         </div>
                     </div>
@@ -134,25 +151,9 @@
                     <div class="row">
                         <div class="col-md-12 col-lg-8">
                             <h2 class="heading">Finished Projects</h2>
-                            <p class="bold">Coding Challenges for CoderFoundry.</p>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-3">
-                                <a href="https://xabvtacocat.netlify.app/" title="Taco Cat Website" target="_blank"><img src="/img/tacothumb.png" alt="image" class="img-fluid dsat img-thumbnail"></a> <br />
-                                <p id="refer" class="text-center"> Picture by <a href="http://limvalencia.blogspot.com/2014/02/tacocat.html" target="_blank" id="link"><u>Wilfrido Limvalencia</u></a></p>
+                            <div class="row">
+                                <p class="bold">Small personal projects for jams or for college. Click to toggle selection. </p>
                             </div>
-                            <div class="col-md-3">
-                                <a href="https://xabvsoaf.netlify.app/" title="Sum of All Fears Website" target="_blank"><img src="/img/soafthumb.png" alt="image" class="img-fluid dsat img-thumbnail"></a>
-                            </div>
-                            <div class="col-md-3">
-                                <a href="https://xabvfizzbuzz.netlify.app" title="Fizz Buzz Website" target="_blank"><img src="/img/fizzbuzzthumb.png" alt="image" class="img-fluid dsat img-thumbnail"></a>
-                            </div>
-                            <div class="col-md-3">
-                                <a href="https://xabvssh.netlify.app" title="Sunset Hills Website" target="_blank"><img src="/img/sshthumb.png" alt="image" class="img-fluid dsat img-thumbnail"></a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <p class="bold">Small personal projects for jams or for college. </p>
                         </div>
                     </div>
                     <div class="row">
@@ -164,12 +165,16 @@
                         </div>
                         <div class="col-md-4">
                             <!--<div class="box"><a href="/img/mathracing.png" data-lightbox="image-1" data-title="A educational touch based racing app aimed towards children. Made during a 48H game jam with the theme of educational games. Uses the idea of sprite stacking to emulate 3d while being entirely 2d." class="has-border"><img src="/img/mathracingthumbbw.png" alt="image" class="thumbprev rounded img-fluid"></a></div>-->
-                            <img src="/img/mathracingthumb.png" id="mritch" class="thumbprev img-thumbnail dsat img-fluid" /><br /><button id="prismtog" class="btn btn-outline-dark">Toggle Code Samples</button>
+                            <div class="gamepreview" id="mathracing">
+                                <img src="/img/mathracingthumb.png" class="thumbprev img-thumbnail dsatnoint img-fluid mrprevtog" /><br />
+                                <a id="mritch" class="btn btn-warning border-warning button1">Play!<span></span></a>
+                                <a id="prismtog" class="btn btn-warning border-warning button2">Code Samples<span></span></a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row codesec">
                 <!--<ul class="nav nav-tabs" id="myTab" role="tablist">
                     <li class="nav-item">
                         <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
@@ -218,6 +223,29 @@
             </div>
         </div>
     </section>
+    <section id="minisites" style="background-color: lightgray">
+        <div class="container">
+            <h4>Coding Challenge Mini-Sites for CoderFoundry.</h4>
+            <hr />
+            <br />
+            <br />
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="https://xabvtacocat.netlify.app/" title="Taco Cat Website" target="_blank"><img src="/img/tacothumb.png" alt="image" class="img-fluid dsat img-thumbnail"></a> <br />
+                    <p id="refer" class="text-center"> Picture by <a href="http://limvalencia.blogspot.com/2014/02/tacocat.html" target="_blank" id="link"><u>Wilfrido Limvalencia</u></a></p>
+                </div>
+                <div class="col-md-3">
+                    <a href="https://xabvsoaf.netlify.app/" title="Sum of All Fears Website" target="_blank"><img src="/img/soafthumb.png" alt="image" class="img-fluid dsat img-thumbnail"></a>
+                </div>
+                <div class="col-md-3">
+                    <a href="https://xabvfizzbuzz.netlify.app" title="Fizz Buzz Website" target="_blank"><img src="/img/fizzbuzzthumb.png" alt="image" class="img-fluid dsat img-thumbnail"></a>
+                </div>
+                <div class="col-md-3">
+                    <a href="https://xabvssh.netlify.app" title="Sunset Hills Website" target="_blank"><img src="/img/sshthumb.png" alt="image" class="img-fluid dsat img-thumbnail"></a>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Portfolio / gallery end-->
     <!-- text page-->
     <section id="upcproject" class="text-page section-inverse">
@@ -228,12 +256,14 @@
                     <div class="row">
                         <div class="col-md-2 centerbutton">
                             <i id="PREV" class="btn-project fas fa-chevron-circle-left fa-2x"></i>
+                            <br />
                         </div>
                         <div class="col-md-5 centerbutton">
-                            <img id="upprev" src="/img/mockupgreym.png" alt="Game Preview">
+                            <img id="upprev" class ="img-fluid" src="/img/mockupgreym.png" alt="Game Preview">
                             <p></p>
                         </div>
                         <div class="col-md-3">
+                            <br />
                             <p id="updesc">My first commercial game release currently in closed alpha, aimed to release via Unreal Store spring 2021. Pneumatiheist is a traditional rogue-like with modern ideas. Lose yourself in an immersive 2d futuristic world. 100+ unique characters to meet as you journey to steal the air itself. Story driven classic rogue-lite with metroidvania elements in a unique never before seen take on several genres. Written in Unity using C#.</p>
                         </div>
                         <div class="col-md-2 centerbutton">
@@ -249,13 +279,25 @@
     <section id="Socials" style="background-color: #fff;" class="text-page pb-4">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-6">
                     <h2 class="heading">Socials</h2>
                     <div class="row">
                         <div class="col-lg-6">
-                            <p></p>
-                            <p class="bold">Click the icons below to find my social media.</p>
-                            <p class="social"><a href="https://twitter.com/xaBvdev" title="My Dev Twitter" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a><a href="https://github.com/brandonvondo" title="My Github" class="instagram"><i class="fab fa-github"></i></a><!--<a href="#" title="" class="instagram"><i class="fa fa-instagram"></i></a>--><a href="mailto:xabvstudios@gmail.com?subject=Contact%20Brandon" title="Email my business email" class="email"><i class="fa fa-envelope"></i></a></p>
+                            <p class="social"><a href="https://twitter.com/xaBvdev" title="My Dev Twitter" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a><a href="https://github.com/brandonvondo" title="My Github" class="instagram"><i class="fab fa-github"></i></a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h4 class="heading">Contact me <span class="headsmall">- Click to copy!</span></h4>
+                    <br />
+                    <div class="row">
+                        <p id="p1" style="display:none;">xabvstudios@gmail.com</p>
+                        <p id="p2" style="display:none;">8043470011</p>
+                        <div class="col-md-12">
+                            <p title="Click to copy!"><a class="mailbutton btn" onclick="copyToClipboard('#p1')"><i class="fa fa-envelope"></i><span></span></a></p>
+                        </div>
+                        <div class="col-md-12">
+                            <p title="Click to copy!"><a class="phonebutton btn" onclick="copyToClipboard('#p2')"><i class="fa fa-mobile-phone"></i><span></span></a></p>
                         </div>
                     </div>
                 </div>
@@ -287,122 +329,6 @@
     <script src="https://kit.fontawesome.com/b9459adbc7.js" crossorigin="anonymous"></script>
     <script src="js/prism.js"></script>
     <script src="js/magnificpopup.js"></script>
-
-    <script>
-        var codeshown = false;
-        //$(document).ready(function () {
-        $("#prismtog").on("click", function () {
-            if (codeshown == false) {
-                $(".prismbox").slideDown();
-                codeshown = true;
-            }
-            else if (codeshown == true) {
-                $(".prismbox").slideUp();
-                codeshown = false;
-            }
-        });
-        //});
-
-        $("#mritch").on("click", function () {
-            $.magnificPopup.open({
-                items: {
-                    src: 'https://itch.io/embed-upload/2497460?color=333333'
-                },
-                type: 'iframe',
-                iframe: {
-                    markup: '<div class="mfp-iframe-scaler custom-iframemp">' +
-                        '<div class="mfp-close"></div>' +
-                        '<iframe class="mfp-iframe" frameborder="0" allowfullscreen>            </iframe>' +
-                        '</div>'
-                }
-            });
-        });
-
-        var CURRENT_CASE = 1;
-
-        $(".btn-project").click(function () {
-            if ($(this).attr("id") === "PREV") {
-                CURRENT_CASE -= 1;
-                if (CURRENT_CASE === 1) {
-                    $(this).css("visibility", "hidden");
-                }
-                //else {
-                //    $("#NEXT").css("visibility", "visible");
-                //}
-                $("#NEXT").css("visibility", "visible");
-            }
-            else if ($(this).attr("id") === "NEXT") {
-                CURRENT_CASE += 1;
-                if (CURRENT_CASE === 2) {
-                    $(this).css("visibility", "hidden");
-                    //}
-                    //else
-                    //    $("#PREV").css("visibility", "visible");
-                }
-                $("#PREV").css("visibility", "visible");
-            }
-            switch (CURRENT_CASE) {
-                case 1:
-                    $("#upprev").attr({
-                        src: "/img/mockupgreym.png"
-                    });
-                    $("#updesc").html("My first commercial game release currently in closed beta, aimed to release via Unreal Store spring 2021. Pneumatiheist is a traditional rogue-like with modern ideas. Lose yourself in an immersive 2d modern world. 100+ unique characters to meet as you journey to steal the air itself. Story driven classic rogue-lite with metroidvania elements in a unique never before seen take on several genres. Written in Unity using C#.");
-                    break;
-                case 2:
-                    $("#upprev").attr({
-                        src: "/img/mockupsm2.gif"
-                    });
-                    $("#updesc").html("Enjoy the depth of combat strategy you would find in X-COM games along with the dialogue options of a Fallout title. All of your choices matter and you carry your reputation with you wherever you go. You can see NPC's emotions and facial expressions in response to your actions and line choices when in towns. You get to navigate the universe in the comfort of your own ship built pixel by pixel by the player. ");
-                    break;
-            }
-        });
-
-        $(".btn-project").mouseenter(function () {
-            $(this).removeClass("fa-2x");
-            $(this).addClass("fa-3x");
-        });
-        $(".btn-project").mouseleave(function () {
-            $(this).removeClass("fa-3x");
-            $(this).addClass("fa-2x");
-        });
-
-         $(".dsat").mouseenter(function () {
-            $(this).removeClass("dsat");
-            $(this).addClass("dsat2");
-        });
-        $(".dsat").mouseleave(function () {
-            $(this).removeClass("dsat2");
-            $(this).addClass("dsat");
-        });
-
-        $(".thumbprev").mouseenter(function () {
-            $(this).css("cursor", "pointer");
-        });
-        $(".thumbprev").mouseleave(function () {
-            $(this).css("cursor", "default");
-        });
-
-        var gifchange = 0;
-
-        $("#upprev").mouseenter(function () {
-            if (CURRENT_CASE == 1 && gifchange == 0) {
-                gifchange = 1;
-                $("#upprev").attr({
-                    src: "/img/mockupsm.gif"
-                });
-            };
-        });
-
-        $("#upprev").mouseleave(function () {
-            if (CURRENT_CASE == 1 && gifchange == 1) {
-                gifchange = 0;
-                $("#upprev").attr({
-                    src: "/img/mockupgreym.png"
-                });
-            };
-        });
-    </script>
-
-    filter:grayscale(1%);
+    <script src="js/custom.js"></script>
 </body>
 </html>

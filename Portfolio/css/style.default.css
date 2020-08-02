@@ -34,7 +34,7 @@ body {
 }
 
 section {
-  padding: 150px 0;
+  padding: 250px 0;
 }
 
 @media (max-width: 767.98px) {
@@ -270,7 +270,6 @@ CONTACT SECTION
 }
 
 p.social {
-  text-align: center;
   margin-top: 20px;
 }
 
@@ -278,7 +277,7 @@ p.social a {
   margin: 0 10px 0 0;
   color: #fff;
   display: inline-block;
-  width: 38px;
+  width: 58px;
   height: 38px;
   border-radius: 19px;
   line-height: 38px;
@@ -1126,12 +1125,12 @@ body {
 }
 
 a {
-  color: #333;
+  color: #6c757d;
   text-decoration: none;
 }
 
 a:hover, a:focus {
-  color: #0d0d0d;
+  color: lightgrey;
   text-decoration: underline;
 }
 
