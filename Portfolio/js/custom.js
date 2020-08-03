@@ -3,6 +3,7 @@ var mouseinabout = false;
 
 $("#aboutlink").mouseenter(function () {
     mouseinabout = true;
+    $("#aboutlink").fadeTo(1, 1)
 });
 $("#aboutlink").mouseleave(function () {
     mouseinabout = false;
