@@ -103,7 +103,6 @@ p.bold {
     }
     #updesc{
         font-size: 2vw;
-        text-wrap:normal;
     }
     .centerbutton{
         margin-bottom: 20px;
@@ -114,6 +113,9 @@ p.bold {
 @media (max-width: 560px) {
     #aboutlink {
         font-size: 5vw;
+    }
+    #updesc {
+        font-size: 3.25vw;
     }
 }
 
