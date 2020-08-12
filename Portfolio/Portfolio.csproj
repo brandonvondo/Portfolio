@@ -120,6 +120,7 @@
     <Content Include="favi\favicon-16x16.png" />
     <Content Include="favi\favicon-32x32.png" />
     <Content Include="favi\favicon.ico" />
+    <Content Include="img\20200811_174630.jpg" />
     <Content Include="img\atryphthumb.png" />
     <Content Include="img\chadthumb.png" />
     <Content Include="img\fizzbuzzthumb.png" />

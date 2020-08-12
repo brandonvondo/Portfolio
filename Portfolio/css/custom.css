@@ -78,14 +78,13 @@
     filter: grayscale(100%);
 }
 
+    .dsat:hover {
+        filter: none;
+    }
+
 .dsatnoint {
     filter: grayscale(100%);
 }
-
-.dsat2 {
-    filter: none;
-}
-
 p.bold {
     font-weight: bold;
 }
@@ -97,6 +96,26 @@ p.bold {
     #aboutlink:hover {
         cursor: pointer;
     }
+
+@media (max-width: 768px) {
+    #aboutlink {
+        font-size: 3vw;
+    }
+    #updesc{
+        font-size: 2vw;
+        text-wrap:normal;
+    }
+    .centerbutton{
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 560px) {
+    #aboutlink {
+        font-size: 5vw;
+    }
+}
 
 .mailbutton {
     width: 50px;
