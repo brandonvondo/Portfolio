@@ -144,7 +144,7 @@ $(".btn-project").click(function () {
             $("#upprev").attr({
                 src: "/img/mockupsm2.gif"
             });
-            $("#updesc").html("Enjoy the depth of combat strategy you would find in X-COM games along with the dialogue options of a Fallout title. All of your choices matter and you carry your reputation with you wherever you go. You can see NPC's emotions and facial expressions in response to your actions and line choices when in towns. You get to navigate the universe in the comfort of your own ship built pixel by pixel by the player. ");
+            $("#updesc").html("Enjoy the depth of combat strategy you would find in X-COM games along with the dialogue options of a Telltale title. All of your choices matter and you carry your reputation with you wherever you go. You can see NPC's emotions and facial expressions in response to your actions and line choices when in towns. You get to navigate the universe in the comfort of your own ship built pixel by pixel by the player. ");
             break;
     }
 });
