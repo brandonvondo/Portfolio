@@ -123,6 +123,7 @@
     <Content Include="img\20200811_174630.jpg" />
     <Content Include="img\atryphthumb.png" />
     <Content Include="img\blogthumb.png" />
+    <Content Include="img\bugthumb.png" />
     <Content Include="img\chadthumb.png" />
     <Content Include="img\fizzbuzzthumb.png" />
     <Content Include="img\gml.ico" />
