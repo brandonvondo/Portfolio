@@ -98,7 +98,7 @@ $("#prismtog").on("click", function () {
 $("#mritch").on("click", function () {
     $.magnificPopup.open({
         items: {
-            src: 'https://itch.io/embed-upload/2497460?color=333333'
+            src: 'https://itch.io/embed-upload/2696250?color=333333'
         },
         type: 'iframe',
         iframe: {
