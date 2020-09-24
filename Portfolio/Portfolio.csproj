@@ -126,6 +126,8 @@
     <Content Include="img\bugthumb.png" />
     <Content Include="img\chadthumb.png" />
     <Content Include="img\fizzbuzzthumb.png" />
+    <Content Include="img\fpapithumb.png" />
+    <Content Include="img\fpthumb.png" />
     <Content Include="img\gml.ico" />
     <Content Include="img\csharp.ico" />
     <Content Include="header.png" />
