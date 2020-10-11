@@ -230,3 +230,7 @@ p.bold {
         margin-left: 50%;
     }
 }
+
+.pointer {
+    cursor: pointer;
+}
