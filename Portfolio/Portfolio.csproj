@@ -114,6 +114,7 @@
     <Content Include="css\magnificpopup.css" />
     <Content Include="css\prism.css" />
     <Content Include="css\style.default.css" />
+    <Content Include="css\ToolTIp.css" />
     <Content Include="favi\android-chrome-192x192.png" />
     <Content Include="favi\android-chrome-512x512.png" />
     <Content Include="favi\apple-touch-icon.png" />

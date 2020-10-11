@@ -220,3 +220,13 @@ p.bold {
 .headsmall {
     font-size: 10px;
 }
+
+.marginauto {
+    margin-left: 10%;
+}
+
+@media screen and (max-width: 992px) {
+    .marginauto {
+        margin-left: 50%;
+    }
+}
